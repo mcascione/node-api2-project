@@ -6,7 +6,7 @@ module.exports = {
   insert,
   update,
   remove,
-  findPostComments,
+  findPostComments, 
   findCommentById,
   insertComment,
 };
