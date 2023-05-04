@@ -74,7 +74,7 @@ router.put("/:id", (req, res) => {
       })
       .then((data) => {
         if (data) {
-          return Post.findById(req.params.id);
+          return Post.findById(id);
         }
       })
       .then((post) => {
